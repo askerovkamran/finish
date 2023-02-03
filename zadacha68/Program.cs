@@ -2,10 +2,10 @@
 // с помощью рекурсии. Даны два неотрицательных числа m и n.
 
 Console.Write("Введите число M: ");
-int m = Convert.ToInt32(Console.ReadLine());
+int M = int.Parse(Console.ReadLine()!);
 Console.Write("Введите число N: ");
-int n = Convert.ToInt32(Console.ReadLine());
-AkkermanFunction(m,n);
+int N = int.Parse(Console.ReadLine()!);
+AkkermanFunction(M,N);
 
 //---------------------Метод-----------------
 void AkkermanFunction(int m, int n)
